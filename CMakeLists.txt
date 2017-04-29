@@ -10,9 +10,4 @@ aux_source_directory(./src DIR_SRCS)
 include_directories(./include)
 
 add_executable(exe ${DIR_SRCS}) 
-#target_link_libraries(exe lwpr) 
-#add_library(dmp SHARED ${DIR_SRCS}) 
-#add_library(dmp STATIC ${DIR_SRCS}) 
-
-
 
